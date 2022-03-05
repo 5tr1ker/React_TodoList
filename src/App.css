@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+.TodoItem{
+  width: 400px;
+  height: 45px;
+  background-color: white;
+  color: black;
+  box-shadow: black 2px 2px 1px;
+  position: relative;
+  top: 5px;
+  border-top: 1px solid gray;
+}
+
+
+.Boxes {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  box-shadow: black 2px 2px 1px;
+  text-align: center;
+}
+
+#Font {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Input_data {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.todoText_Done{
+  position: relative;
+  top: 10px;
+  transform: translateY(-50%);
+  font-weight: 500;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.todoText{
+  position: relative;
+  top: 10px;
+  transform: translateY(-50%);
+  font-weight: 500;
+}
+
+.TodoItem_Check{
+  width: 30px;
+  position: absolute;
+  margin-top: 16px;
+  left: 0px;
+}
+
+.deleteButton{
+  float: right;
+  margin-right: 14px;
+  margin-top: 8px;
+  width: 60px;
+  color: green;
+  font-weight: 700;
+  height: 30px;
+  background-color: white;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  background-color: green;
+  color: white;
+}
+
+.Input_data:focus {
+  border-bottom: 1px solid rgb(43, 42, 42);
+}
+
+.Input_Bt {
+  width: 60px;
+  height: 30px;
+  color: green;
+  font-weight: 700;
+  background-color: white;
+  border: 2px solid green;
+  margin-left: 0.5rem;
+  justify-content: center;
+  
+}
+
+.Input_Bt:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
